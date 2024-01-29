@@ -1,7 +1,9 @@
 body {
+    background-color: black;
     background-image: url(./images/background.jpg);
     background-size: contain;
     color: white;
+    margin: 20px;
 }
 
 #logo_box {
@@ -28,7 +30,7 @@ body {
 }
 
 .icon_box {
-    background-color: grey;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
