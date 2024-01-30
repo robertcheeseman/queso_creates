@@ -6,41 +6,51 @@ body {
     margin: 20px;
 }
 
+/* HEADER and LOGOS */
+
 #logo_box {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#square_logo {
-    width: 75vw;
-}
-
-.icon {
-    width: 160px;
-    height: 160px;
-}
-
-#icon_boxes {
-    display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    padding: 10px;
 }
 
-.icon_box {
+#long_logo {
+    width: 85vw;
+}
 
+/* NAVIGATION */
+
+#nav_box {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+
+#nav_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_item {
+    background-color: aqua;
+    margin: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
-.icon_text {
-    font: bold;
+.nav_icon {
+    width: 25vw;
+    background-color: aqua;
+}
+
+.nav_text {
     color: white;
-    text-transform: uppercase;
+    text-decoration: none;
+    display: none;
 }
