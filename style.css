@@ -23,7 +23,6 @@ body {
 #nav_box {
     display: flex;
     justify-content: center;
-    background-color: red;
 }
 
 #nav_list{
@@ -36,7 +35,6 @@ body {
 }
 
 .nav_item {
-    background-color: aqua;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -46,11 +44,48 @@ body {
 
 .nav_icon {
     width: 25vw;
-    background-color: aqua;
 }
 
 .nav_text {
     color: white;
     text-decoration: none;
     display: none;
+}
+
+/* DEV PROJECTS */
+
+#content_top {
+    display: flex;
+    justify-content: center;
+}
+
+.dev_project {
+    border: 1px white solid;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: grey;
+}
+
+.project_links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.project_link {
+        padding: 0px 10px;
+        text-decoration: none;
+}
+
+.project_img {
+    display: flex;
+    justify-content: center;
+}
+
+.project_pic {
+    width: 90%;
+}
+
+.proj_text {
+    text-indent: 5%;
 }
