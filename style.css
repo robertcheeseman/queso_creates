@@ -113,6 +113,7 @@ body {
 footer {
     margin-top: 20px;
     display: flex;
+    justify-content: center;
 }
 
 #profile_pic {
@@ -122,7 +123,19 @@ footer {
     border: black solid 3px;
 }
 
+#footer_mid {
+    display: none;
+}
+
 #footer_list {
     list-style-type: none;
+}
 
+.footer_item {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.footer_item a {
+    color: black;
 }
