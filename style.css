@@ -65,7 +65,7 @@ body {
     border-radius: 7px;
     padding: 0 5px;
     background-color: rgb(169, 129, 29);
-    background-image: url(./images/orange\ background.webp);
+    /* background-image: url(./images/orange\ background.webp); */
     background-position: center;
     background-size: cover;
 }
@@ -109,6 +109,81 @@ body {
         margin-left: 20px;
         margin-right: 20px;
 }
+
+/* AUDIO ENGINEERING */
+
+#audio_highlights {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#audio_highlights h3 {
+    text-align: center;
+    margin: 5px;
+}
+
+#audio_highlights p {
+    text-align: center;
+    margin: 5px;
+}
+
+.page_break {
+    border: 2px black solid;
+}
+
+.heading {
+    text-align: center;
+}
+
+#audio_discog {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.album_entry {
+    border: solid black 3px;
+    background-color: rgb(169, 129, 29);;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.album_art {
+    width: 140px;
+    height: 140px;
+    margin: 5px;
+}
+
+.artist {
+    margin: 3px;
+}
+
+.album_name {
+    margin: 5px;
+    text-align: center;
+    height: 30px;
+}
+
+.albumhr {
+    width: 90%;
+    border: 1px solid black;
+}
+
+.credits {
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+#audio_about p {
+    text-indent: 20px;
+}
+
+/* FOOTER */
 
 footer {
     margin-top: 20px;
