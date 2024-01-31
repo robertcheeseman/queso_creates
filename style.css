@@ -109,3 +109,20 @@ body {
         margin-left: 20px;
         margin-right: 20px;
 }
+
+footer {
+    margin-top: 20px;
+    display: flex;
+}
+
+#profile_pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: black solid 3px;
+}
+
+#footer_list {
+    list-style-type: none;
+
+}
