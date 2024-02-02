@@ -53,6 +53,12 @@ body {
     display: none;
 }
 
+/* HOME */
+
+#home_content {
+    display: flex;
+}
+
 /* DEV PROJECTS */
 
 #content_top {
