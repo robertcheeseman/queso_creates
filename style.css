@@ -145,6 +145,8 @@ body {
 #audio_discog {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .album_entry {
@@ -223,5 +225,14 @@ footer {
 @media screen and (min-width: 800px) {
     .nav_icon {
         width: 10vw;
+    }
+
+    .album_entry {
+        width: 300px;
+    }
+
+    .album_art {
+        width: 290px;
+        height: 290px;
     }
 }
