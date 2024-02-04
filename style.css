@@ -1,6 +1,5 @@
 body {
     background-color: black;
-    /* background-image: url(./images/background.jpg); */
     background-image: url(./images/bright-yellow-brick.jpg);
     background-size: contain;
     color: black;
@@ -219,4 +218,10 @@ footer {
 
 .footer_item a {
     color: black;
+}
+
+@media screen and (min-width: 800px) {
+    .nav_icon {
+        width: 10vw;
+    }
 }
