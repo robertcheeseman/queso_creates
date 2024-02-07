@@ -1,10 +1,13 @@
 body {
-    background-color: black;
-    background-image: url(./images/bright-yellow-brick.jpg);
-    background-size: contain;
+    background-color: blue;
+    /* background-image: url(./images/bright-yellow-brick.jpg); */
+    /* background-size: contain; */
     color: black;
-    margin: 20px;
-    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: flex-center;
+    margin: 0;
 }
 
 /* HEADER and LOGOS */
@@ -53,13 +56,41 @@ body {
     display: none;
 }
 
-/* HOME */
+/* PAGE CONTENT GLOBALS */
 
 #content {
     display: flex;
     flex-direction: column;
     background-color: red;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+/* HOME */
+
+#home_top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 90vw;
+}
+
+#home_img {
+
+    border: black solid 3px;
+    border-radius: 20px;
+    width: 90vw;
+}
+
+#home_bio {
+    text-indent: 20px;
+}
+
+#home_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* DEV PROJECTS */
