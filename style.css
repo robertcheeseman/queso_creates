@@ -238,6 +238,7 @@ body {
 .about {
     padding: 0px 20px;
     text-indent: 20px;
+    width: 90vw;
 }
 
 /* FOOTER */
