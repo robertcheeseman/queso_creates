@@ -1,6 +1,6 @@
 body {
-    background-color: blue;
-    /* background-image: url(./images/bright-yellow-brick.jpg); */
+    background-color: black;
+    background-image: url(./images/bright-yellow-brick.jpg);
     /* background-size: contain; */
     color: black;
     display: flex;
@@ -61,7 +61,6 @@ body {
 #content {
     display: flex;
     flex-direction: column;
-    background-color: red;
     width: 100vw;
     align-items: center;
     justify-content: center;
@@ -77,7 +76,6 @@ body {
 }
 
 #home_img {
-
     border: black solid 3px;
     border-radius: 20px;
     width: 90vw;
@@ -91,6 +89,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#home_bottom h3 {
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 /* DEV PROJECTS */
@@ -229,6 +234,7 @@ body {
 }
 
 #audio_about p {
+    padding: 20px;
     text-indent: 20px;
 }
 
@@ -267,6 +273,19 @@ footer {
 @media screen and (min-width: 800px) {
     .nav_icon {
         width: 10vw;
+    }
+
+    #home_top {
+        flex-direction: row;
+    }
+
+    #home_img {
+        width: 50vw;
+    }
+
+    #home_bio {
+        padding: 20px;
+        font-size: 2.5em;
     }
 
     .dev_project {
