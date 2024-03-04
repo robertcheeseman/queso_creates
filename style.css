@@ -66,6 +66,11 @@ body {
     justify-content: center;
 }
 
+#content_mid {
+    display: flex;
+    flex-direction: column;
+}
+
 /* HOME */
 
 #home_top {
