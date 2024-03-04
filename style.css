@@ -66,11 +66,6 @@ body {
     justify-content: center;
 }
 
-#content_mid {
-    display: flex;
-    flex-direction: column;
-}
-
 /* HOME */
 
 #home_top {
@@ -112,6 +107,7 @@ body {
 
 #content_mid {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -125,6 +121,7 @@ body {
     background-position: center;
     background-size: cover;
     width: 90vw;
+    margin-top: 20px;
 }
 
 .dev_project h3 {
